@@ -7,7 +7,7 @@ const display = Orbitron({ subsets: ["latin"], weight: ["500", "700", "800"], va
 const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: `${site.name} | UI/UX and Graphic Designer`,
+  title: `${site.name}`,
   description: site.heroText,
 };
 

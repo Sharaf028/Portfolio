@@ -36,6 +36,14 @@ body {
 
 .blob { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; animation: morph 9s ease-in-out infinite; }
 @keyframes morph { 50% { border-radius: 40% 60% 42% 58% / 48% 58% 42% 52%; } }
+.hero-role-glow {
+  color: rgb(var(--neon));
+  animation: role-glow 2.4s ease-in-out infinite alternate;
+}
+@keyframes role-glow {
+  from { text-shadow: 0 0 8px rgb(var(--neon) / .4); }
+  to { text-shadow: 0 0 20px rgb(var(--neon) / .85), 0 0 36px rgb(var(--neon) / .4); }
+}
 .spot { position: relative; overflow: hidden; }
 .spot::before {
   content: ""; position: absolute; inset: 0; opacity: 0; transition: opacity .25s; pointer-events: none;
@@ -45,5 +53,5 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .blob { animation: none; }
+  .blob, .hero-role-glow { animation: none; }
 }

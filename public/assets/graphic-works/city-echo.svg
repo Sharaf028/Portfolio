@@ -1,0 +1,25 @@
+﻿<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" fill="#0F172A"/>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <rect x="130" y="1020" width="110" height="348" fill="#F8FAFC" fill-opacity="0.08"/>
+    <rect x="270" y="930" width="140" height="438" fill="#F8FAFC" fill-opacity="0.12"/>
+    <rect x="454" y="840" width="170" height="528" fill="#F8FAFC" fill-opacity="0.14"/>
+    <rect x="670" y="690" width="150" height="678" fill="#F8FAFC" fill-opacity="0.18"/>
+    <rect x="858" y="900" width="180" height="468" fill="#F8FAFC" fill-opacity="0.12"/>
+  </g>
+  <path d="M0 1290C140 1204 254 1180 366 1208C478 1236 574 1310 728 1284C870 1260 964 1146 1200 1204V1600H0V1290Z" fill="#1D4ED8" fill-opacity="0.55"/>
+  <circle cx="846" cy="542" r="208" fill="#F59E0B" fill-opacity="0.22"/>
+  <circle cx="844" cy="540" r="120" fill="#FDE68A" fill-opacity="0.6"/>
+  <path d="M860 374C1004 450 1080 490 1170 550C1097 650 1011 708 868 768C770 818 683 865 556 890C613 766 683 655 860 374Z" fill="#F8FAFC" fill-opacity="0.18"/>
+  <text x="140" y="240" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="8">CITY</text>
+  <text x="140" y="314" fill="#FBBF24" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="8">ECHO</text>
+  <text x="148" y="1360" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="40" font-weight="500" letter-spacing="7">URBAN ILLUSTRATION</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+</svg>

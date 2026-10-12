@@ -66,7 +66,6 @@ export default function Home() {
 
         <Section id="contact" title="Get in touch">
           <Reveal>
-            <p className="max-w-xl text-lg text-soft">Looking for a UI/UX or graphic designer? Send me a message or find me online.</p>
             <div className="mt-8 flex gap-5">
               <a href={`mailto:${site.email}`} aria-label="Email" className={iconLink}><MailIcon className="size-6" /></a>
               <a href={site.github} target="_blank" rel="noreferrer" aria-label="GitHub" className={iconLink}><GithubIcon className="size-6" /></a>
