@@ -9,6 +9,9 @@ const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
   title: `${site.name}`,
   description: site.heroText,
+  icons: {
+    icon: "/assets/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -131,13 +131,13 @@ function Card({ p, category, index }: { p: P; category: string; index: number })
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false, amount: 0.1, margin: "-40px" }}
       transition={{ duration: 0.6, delay: Math.min(index * 0.1, 0.3), ease: "easeOut" }}
-      className={`group grid gap-6 border-b border-line/50 py-8 text-left last:border-b-0 md:items-center md:gap-12 md:py-12 ${isWebProject ? "" : "md:grid-cols-2"}`}
+      className={`group grid gap-5 border-b border-line/50 py-6 text-left last:border-b-0 sm:gap-6 sm:py-8 md:items-center md:gap-12 md:py-12 ${isWebProject ? "" : "md:grid-cols-2"}`}
     >
       <div className={`flex flex-col items-start ${imageFirst ? "md:order-2" : "md:order-1"}`}>
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-neon">
           {p.category ?? category}
         </p>
-        <h3 className="mt-2 font-display text-2xl font-bold text-strong md:text-3xl">{p.title}</h3>
+        <h3 className="mt-2 font-display text-xl font-bold text-strong sm:text-2xl md:text-3xl">{p.title}</h3>
         <p className="mt-3 text-sm leading-6 text-mute md:text-base">{p.text}</p>
 
         <ul className="mt-5 flex flex-wrap gap-2">
@@ -202,7 +202,7 @@ export default function Projects() {
         <div role="tablist" aria-label="Project categories" className="flex flex-wrap gap-3">
           {tabs.map((t) => (
             <button key={t} role="tab" aria-selected={tab === t} onClick={() => setTab(t)}
-              className={`rounded-full border px-5 py-2 text-sm font-semibold transition ${tab === t ? "border-neon bg-neon text-ink shadow-[0_0_18px_rgb(var(--neon)/0.5)]" : "border-line text-soft hover:border-neon/60"}`}>
+              className={`rounded-full border px-4 py-2 text-xs font-semibold transition sm:px-5 sm:text-sm ${tab === t ? "border-neon bg-neon text-ink shadow-[0_0_18px_rgb(var(--neon)/0.5)]" : "border-line text-soft hover:border-neon/60"}`}>
               {t}
             </button>
           ))}

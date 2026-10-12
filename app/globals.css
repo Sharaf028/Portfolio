@@ -21,7 +21,7 @@
   --glowA: 196 165 255; --glowB: 165 180 252;
 }
 
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html { font-size: 90%; scroll-behavior: smooth; scroll-padding-top: 64px; }
 body {
   background-color: rgb(var(--ink)); color: rgb(var(--soft)); overflow-x: hidden;
   background-image:
