@@ -65,7 +65,7 @@ export const site = {
       { title: "Quest Board", text: "A fun to-do app that turns daily tasks into “quests.” Users sign in with Google, add tasks with deadlines and tags, save study resources and links in their own sections, and review completed quests in an archive. A profile page tracks remaining and completed quests plus a daily login streak, and a built-in AI assistant helps with planning and brainstorming. It also has dark mode.", tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "Prisma", "NextAuth.js"], link: "https://quest-board-weld.vercel.app", github: "https://github.com/Sharaf028/Quest-Board" },
       { title: "ArtConnect", text: "A community platform where artists can showcase their work and clients can discover and contact them for commissions. Artists register, upload artworks with images and tags, and build a profile and gallery. Clients can browse and filter artwork, view artist profiles, and get in touch. It includes authentication, role-based access, and a responsive interface. This project is still in progress.", tags: ["Laravel", "PHP", "Bootstrap", "MySQL", "Laravel Breeze"], github: "https://github.com/Sharaf028/ArtConnect" },
     ],
-  } as Record<string, { title: string; category?: string; text: string; tags: string[]; link?: string; github?: string; soon?: boolean; preview?: string }[]>,
+  } as Record<string, { title?: string; category?: string; text: string; tags: string[]; link?: string; github?: string; soon?: boolean; preview?: string }[]>,
   education: [
     { school: "BRAC University", degree: "Bachelor of Computer Science", note: "Session 2022 - 2026" },
   ],
